@@ -8,7 +8,7 @@ Mediante un inicio de sesión disfrutara de los beneficios de registrar, consult
 ¡Los alumnos de la Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales nos proponemos a dar lo mejor de nosotros para que Controlling sea útil, segura y un éxito!
 
 
-###  Integrantes
+##  Integrantes
 -  [Hroncich, Alejandro](https://github.com/ahroncich7)
 -  [Lencina, Tomás](https://github.com/TomiLencina)
 -  [Christiansen, Malvina S.](https://github.com/Malvina989)
