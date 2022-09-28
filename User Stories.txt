@@ -5,6 +5,10 @@
 #US_05 Como administrador me gustaria que cada usuario se informe sobre su cartera de inversiones desde un mismo lugar.
 #US_06 Como administrador necesito que cada usuario tenga su propia cuenta y que agregue,elimine,manipule su cartera de inversiones.
 #US_07 Como administrador necesito que el usuario pueda filtrar desde su cartera el tipo de inversiones que elige visualizar.
+  #US_07.1 Como usuario necesito poder personalizar filtros para los datos que visualizo.  
 #US_08 Como administrador necesito actualizar los valores de las inversiones de mis usuarios constantemente.
 #US_09  Como usuario me gustaria ver historias de otros usuarios para conocer como estan operando.
+  #US_09.1 Como usuario, me gustaría visualizar las inversiones mas populares entre los usuarios de la app
 #US_10 Como usuario quisiera que los datos e informacion de mi cuenta esten seguros ya que son confidenciales.
+#US_11 Como administrador me gustaría ver la cantidad de usuarios registrados, y la cantidad de usuarios activos (ultimo mes)
+
