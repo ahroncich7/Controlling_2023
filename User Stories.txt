@@ -1,7 +1,7 @@
 #US_01 Como usuario necesito visualizar mis inversiones de distintos exchanges desde un mismo lugar
 #US_02 Como usuario me gustaria poder observar rapidamente mi cartera de inveriones (bursatiles,criptos,bolsa)
 #US_03 Como usuario necesito alguna notificación/alerta cuando el valor de mis inversiones varía inesperadamente/drasticamente.
-#US_04 Como usuario....
+#US_04 Como usuario me gustaria ver en forma grafica perdidas y ganancias mensuales/semanales/diarias
 #US_05 Como administrador me gustaria que cada usuario se informe sobre su cartera de inversiones desde un mismo lugar.
 #US_06 Como administrador necesito que cada usuario tenga su propia cuenta y que agregue,elimine,manipule su cartera de inversiones.
 #US_07 Como administrador necesito que el usuario pueda filtrar desde su cartera el tipo de inversiones que elige visualizar.
