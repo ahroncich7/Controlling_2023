@@ -1,4 +1,5 @@
 #Propuestas
+Estas propuestas fueron el resultado de las ideas de los diferentes integrantes del grupo para decidirnos sobre que se basaria el proyecto, nos deidimos por el proyecto de la app Controlling.
 
 1) Mundial/Deportes: una pagina web del mundial donde se pueda incluir noticias, predicciones, resultados en directo, estadisticas del partido, resumenes o incluso la historia. Tambien se podria poner la informacion de los paises,etc.
 
