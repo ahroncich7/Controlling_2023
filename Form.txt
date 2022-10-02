@@ -10,6 +10,8 @@ Perimitirá visualizar el valor en que cotiza la cartera de inversiones en tiemp
 *- Si pudiera elegir el criterio bajo el cuál filtrar a voluntad los datos de sus inversiones, ¿que criterios cree que le serían de mayor utilidad?
 *- ¿Considera que existe alguna desventaja en registrar todas las tenencias en una sola plataforma? ¿Cuál/es? 
 *- ¿Que tipos de activos opera?
+*- ¿Por qué eligió utilizar ese software y no otro diferente?
+
 
 
 
