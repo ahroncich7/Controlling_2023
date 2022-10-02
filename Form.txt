@@ -5,12 +5,13 @@ Perimitirá visualizar el valor en que cotiza la cartera de inversiones en tiemp
 
 
 *- ¿Conoce/Utiliza algún software para mantener registro de la compra-venta y tenencia de activos?
+*- ¿Por qué eligió utilizar ese software y no otro diferente?
+*- ¿Que tipos de activos opera?
 *- ¿Considera útil el poder visualizar todos los activos en tenencia, en exchanges/brokers diversificados, desde una mismo lugar?
 *- ¿Que limitación se encuentra a la hora de registrar por otros medios los datos de una operación bursatil?
 *- Si pudiera elegir el criterio bajo el cuál filtrar a voluntad los datos de sus inversiones, ¿que criterios cree que le serían de mayor utilidad?
 *- ¿Considera que existe alguna desventaja en registrar todas las tenencias en una sola plataforma? ¿Cuál/es? 
-*- ¿Que tipos de activos opera?
-*- ¿Por qué eligió utilizar ese software y no otro diferente?
+
 
 
 
