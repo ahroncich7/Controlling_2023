@@ -15,3 +15,4 @@
 #US_11 Como administrador quiero ver la cantidad de usuarios registrados, y la cantidad de usuarios activos (ultimo mes) para llevar un control del uso de la app
 #US_12 Como administrador quiero que el backend se comunique con una API de terceros para poder transmitir al front los valores actualizados de los activos
 #US_13 Como administrador quiero delegar la permanencia de datos a una Base de Datos para independizar la lógica del back-end
+#US_14 Como usuario ver las monedas/divisas con mayor volatilidad del mercado
