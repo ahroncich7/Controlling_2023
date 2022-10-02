@@ -11,6 +11,7 @@ Perimitirá visualizar el valor en que cotiza la cartera de inversiones en tiemp
 *- ¿Que limitación se encuentra a la hora de registrar por otros medios los datos de una operación bursatil?
 *- Si pudiera elegir el criterio bajo el cuál filtrar a voluntad los datos de sus inversiones, ¿que criterios cree que le serían de mayor utilidad?
 *- ¿Considera que existe alguna desventaja en registrar todas las tenencias en una sola plataforma? ¿Cuál/es? 
+*- ¿Qué mejoras con respecto a la seguridad encuentra en su app?
 
 
 
