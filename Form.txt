@@ -10,6 +10,6 @@ Perimitirá visualizar el valor en que cotiza la cartera de inversiones en tiemp
 *- Si pudiera elegir el criterio bajo el cuál filtrar a voluntad los datos de sus inversiones, ¿que criterios cree que le serían de mayor utilidad?
 *- ¿Considera que existe alguna desventaja en registrar todas las tenencias en una sola plataforma? ¿Cuál/es? 
 *- ¿Considera a simple vista que la app ofrece seguridad al usuario? En caso de no ofrecerla ¿Por qué sería el motivo?
-
+*- ¿La app es fácil e intuitiva al momento de usarla?
 
 
