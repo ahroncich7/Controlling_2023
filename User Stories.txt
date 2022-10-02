@@ -1,18 +1,12 @@
-#US_01 Como usuario quiero visualizar mis inversiones de distintos exchanges desde un mismo lugar para tenerlas organizadas
-#US_02 Como usuario quiero observar rapidamente mi cartera de inveriones (bursatiles,criptos,bolsa) para conocer mi situación financiera
-#US_03 Como usuario quiero alguna notificación/alerta cuando el valor de mis inversiones varía inesperadamente/drasticamente para no perderme los movimientos.
-#US_04 Como usuario quiero ver en forma grafica perdidas y ganancias mensuales/semanales/diarias para poder tomar desiciones con rapidez.
-#US_05 Como administrador me gustaria que cada usuario se informe sobre su cartera de inversiones desde un mismo lugar.
-#US_06 Como administrador necesito que cada usuario tenga su propia cuenta y que agregue,elimine,manipule su cartera de inversiones.
-  #US_06.1 Como administrador quiero que cada usuario tenga una cuenta para pueda agregar,eliminar,manipular su cartera de inversiones.  
-#US_07 Como administrador necesito que el usuario pueda filtrar desde su cartera el tipo de inversiones que elige visualizar.
-  #US_07.1 Como usuario quiero personalizar filtros para especificar los datos que visualizo.  
-#US_08 Como administrador quiero acceso a un stream de datos para actualizar los valores de las inversiones de mis usuarios en tiempo real
-#US_09  Como usuario me gustaria ver historias de otros usuarios para conocer como estan operando.
-  #US_09.1 Como usuario, quiero visualizar las inversiones mas populares entre los usuarios de la app para conocer hacia donde va el mercado
-#US_10 Como usuario quiero que los datos e informacion de mi cuenta esten seguros ya que son confidenciales.
-  #US_10.1 Como usuario quiero que los datos e informacion de mi cuenta sean privados para que esten seguros ya que son confidenciales.
-#US_11 Como administrador quiero ver la cantidad de usuarios registrados, y la cantidad de usuarios activos (ultimo mes) para llevar un control del uso de la app
-#US_12 Como administrador quiero que el backend se comunique con una API de terceros para poder transmitir al front los valores actualizados de los activos
-#US_13 Como administrador quiero delegar la permanencia de datos a una Base de Datos para independizar la lógica del back-end
-#US_14 Como usuario ver las monedas/divisas con mayor volatilidad del mercado
+#US_01 Como usuario registrado quiero visualizar mis inversiones de distintos intercambios desde un mismo lugar para tenerlas organizadas.
+#US_02 Como usuario registrado quiero observar rápidamente mi cartera de inversiones (bursátiles,criptos,bolsa) para conocer mi situación financiera.
+#US_03 Como usuario registrado quiero alguna notificación/alerta cuando el valor de mis inversiones varía inesperadamente/drásticamente para no perderme los movimientos.
+#US_04 Como usuario registrado quiero ver en forma gráfica pérdidas y ganancias mensuales/semanales/diarias para poder tomar desiciones con rapidez.
+#US_05 Como usuario registrado quiero un perfil para poder agregar,eliminar,manipular mi cartera de inversiones para mantenerla actualizada.  
+#US_06 Como usuario registrado quiero poder personalizar filtros para especificar los datos que visualizo según mis preferencias.
+#US_07 Como usuario registrado quiero que los datos que ingrese sean conservados para poder acceder a ellos en cualquier momento sin volver a ingresarlos.
+#US_08 Como usuario registrado quiero que los datos, inversiones e información de mi cuenta sean privados, para que estén seguros ya que son confidenciales.
+#US_09 Como usuario registrado quiero visualizar constantemente los valores actualizados de los distintos activos para decidir mis inversiones.
+#US_10 Como usuario visitante quiero ver la cantidad de usuarios registrados, y la cantidad de usuarios activos (último mes) para determinar la confiabilidad del sitio.
+#US_11 Como usuario visitante quiero visualizar las inversiones mas populares entre los usuarios de la app para conocer hacia donde va el mercado.
+#US_12 Como usuario visitante quiero ver las monedas/divisas con mayor volatilidad del mercado para mantenerme informado.
