@@ -4,14 +4,14 @@ tenencia de activos financieros y bursátiles.
 Perimitirá visualizar el valor en que cotiza la cartera de inversiones en tiempo real y ajustado según filtros que el usuario podrá definir. 
 
 
-*- ¿Conoce/Utiliza algún software para mantener registro de la compra-venta y tenencia de activos?
-*- ¿Por qué eligió utilizar ese software y no otro diferente?
+*- ¿Conoce/utiliza algún software para mantener registro de la compra-venta y tenencia de activos?
+*- Si contestó si a la respuesta anterior ¿Por qué eligió utilizar ese software y no otro diferente?
+*- ¿Que función que aún no tiene le gustaría agregar a esa app?
 *- ¿Que tipos de activos opera?
 *- ¿Considera útil el poder visualizar todos los activos en tenencia, en exchanges/brokers diversificados, desde una mismo lugar?
 *- ¿Que limitación se encuentra a la hora de registrar por otros medios los datos de una operación bursatil?
 *- Si pudiera elegir el criterio bajo el cuál filtrar a voluntad los datos de sus inversiones, ¿que criterios cree que le serían de mayor utilidad?
 *- ¿Considera que existe alguna desventaja en registrar todas las tenencias en una sola plataforma? ¿Cuál/es? 
-*- ¿Qué mejoras con respecto a la seguridad haría en su app?
 
 
 
