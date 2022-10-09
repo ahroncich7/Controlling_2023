@@ -1,0 +1,19 @@
+{
+  "name": "controlling",
+  "version": "1.0.0",
+  "description": "Controlling es un proyecto que apunta a facilitar al cliente el registro y seguimiento de sus inversiones en diferentes Brokers o Exchanges. Con esta Aplicación Web y Mobile el cliente podrá llevar un control de sus criptomonedas y sus inversiones bursátiles. Podrá registrarse con una cuenta de correo electrónico y contraseña.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomiLencina/ISPC-Proyecto-integrador-full-stack-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomiLencina/ISPC-Proyecto-integrador-full-stack-/issues"
+  },
+  "homepage": "https://github.com/TomiLencina/ISPC-Proyecto-integrador-full-stack-#readme"
+}
