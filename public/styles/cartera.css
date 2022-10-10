@@ -1,10 +1,15 @@
 body {
     padding: 0;
     margin: 0;
-    --color1: #D3DDFE;
-    --color2: #144BF0;
-    --color3: #d1d1d1;
+    --color1: #F3EEF4;
+    --color2: #984FF2;
+    --color3: #4fc4cf;
+    --color4: #181818;
+    --color5: #c09deb;  
+}
 
+* {
+    color: var(--color4);
 }
 
 .header {
@@ -18,31 +23,72 @@ body {
 
 }
 
-.container-cartera {
+.container-portfolio {
     display: flex;
     gap: 2em;
     flex-wrap: wrap;
     height: max-content;
 }
 
-.container-cartera>div {
+.container-portfolio>div {
     height: auto;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 35px;
+    box-shadow: 1px 1px 5px var(--color4) ;
 }
 
-.cartera {
+.portfolio {
     min-width: 70%;
     flex-grow: 1;
     height: 100%;
     background-color: var(--color1);
 }
 
-.cartera-tabla {
-    background-color: #ffffffbd;
+.table-head{
+    background-color: var(--color5);
+    
 }
 
-.cartera-resumen {
+.portfolio-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-add div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.portfolio-add input{
+    all: unset;
+    box-sizing: border-box;
+    border: 3px solid var(--color4);
+    border-radius: 10px;
+    width: 150px;
+    background-color: var(--color1);
+    text-align: center;
+}
+
+.add-btn {
+    padding: 1em 0;
+}
+
+.add-btn button {
+    background-color: var(--color2);
+    font-weight: bold;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.add-btn button:hover {
+    background-color: var(--color3);
+}
+
+.portfolio-resumen {
     flex-grow: 1;
     height: 100%;
     background-color: var(--color1);
@@ -57,14 +103,14 @@ body {
 
 
 @media screen and (max-width: 1400px) {
-    .cartera-resumen {
+    .portfolio-resumen {
         flex-direction: row
     }
 
 }
 
 @media screen and (min-width: 1400px) {
-    .cartera-resumen {
+    .portfolio-resumen {
         align-items: center;
     }
 

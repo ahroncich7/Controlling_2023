@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/cartera.css">
 
-    <title>cartera</title>
+    <title>Cartera</title>
 </head>
 
 <body>
@@ -17,12 +17,12 @@
 
     </div>
 
-    <div class="container container-cartera">
-        <div class="cartera">
+    <div class="container container-portfolio">
+        <div class="portfolio">
             <div class="table-responsive">
 
-                <table class="table table-striped text-center cartera-tabla">
-                    <thead>
+                <table class="table table-striped text-center portfolio-tabla">
+                    <thead class="table-head">
                         <tr>
                             <th scope="col">Activo</th>
                             <th scope="col">Brk</th>
@@ -93,9 +93,55 @@
                 </table>
             </div>
 
+            <div class="portfolio-add">
+
+
+                <div class="assets-container">
+                    <label for="assets">Activo</label>
+                    <input list="assets">
+                    <datalist id="assets">
+                        <option value="ETH">
+                        <option value="NETFLIX">
+                        <option value="YPF:BYMA">
+                        <option value="BTC">
+                        <option value="TGNO">
+                    </datalist>
+                </div>
+                <div class="excbrk-container">
+                    <label for="excbrk">Exc/Brk</label>
+                    <input list="EXC/BRK">
+                    <datalist id="EXC/BRK">
+                        <option value="BINANCE">
+                        <option value="IOL">
+                        <option value="E-TORO">
+                        <option value="BITMAX">
+                        <option value="Bull Market">
+                    </datalist>
+                </div>
+                <div class="date-container">
+                    <label for="date">Fecha de Compra:</label>
+                    <input type="date" id="date" name="date" value="today">
+                </div>
+                <div class="quantity-container">
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" id="quantity" name="quantity">
+                </div>
+                <div class="price-container">
+                    <label for="price">Precio:</label>
+                    <input type="number" id="price" name="price">
+                </div>
+
+
+            </div>
+
+            <div class="add-btn text-center">
+                <button type="button" class="btn">+</button>
+            </div>
+
+
         </div>
 
-        <div class="cartera-resumen">
+        <div class="portfolio-resumen">
 
             <div class="table-responsive">
 
@@ -108,7 +154,7 @@
                     <tbody class="table-group-divider">
 
                         <tr>
-                            <th scope="row">Cartera Valorizada</th>
+                            <th scope="row">portfolio Valorizada</th>
                             <td>$128246</td>
                         </tr>
                         <tr>
