@@ -14,26 +14,25 @@ body {
 }
 
 .container {
-    width: 90%;
-    height: 400px;
     margin: 100px auto;
 
 }
 
 .container-cartera {
-
     display: flex;
-    max-width: 1200px;
     gap: 2em;
     flex-wrap: wrap;
+    height: max-content;
 }
 
 .container-cartera>div {
+    height: auto;
     border-radius: 15px;
     padding: 35px;
 }
 
 .cartera {
+    min-width: 70%;
     flex-grow: 1;
     height: 100%;
     background-color: var(--color1);
@@ -47,4 +46,26 @@ body {
     flex-grow: 1;
     height: 100%;
     background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.resumen-grafico {
+    max-width: 200px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .cartera-resumen {
+        flex-direction: row
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+    .cartera-resumen {
+        align-items: center;
+    }
+
 }
