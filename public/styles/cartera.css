@@ -1,0 +1,133 @@
+:root {
+    padding: 0;
+    margin: 0;
+    --color1: #F3EEF4;
+    --color2: #984eF3;
+    --color3: #4fc4cf;
+    --color4: #181818;
+    --color5: #c09deb;
+}
+
+* {
+    color: var(--color4);
+    white-space: nowrap;
+}
+
+.header {
+    width: 100vw;
+    height: 85px;
+    background-color: var(--color2);
+}
+
+.container {
+    margin-top: 100px;
+
+}
+
+/*----------PORTFOLIO----------*/
+
+.container-portfolio {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    height: max-content;
+}
+
+.container-portfolio>div {
+    height: auto;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: 1px 1px 5px var(--color4);
+}
+
+.portfolio {
+    min-width: 70%;
+    flex-grow: 1;
+    height: 100%;
+    background-color: var(--color1);
+}
+
+.table-head {
+    background-color: var(--color5);
+
+}
+
+.portfolio-add {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.portfolio-add div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.portfolio-add input {
+    all: unset;
+    box-sizing: border-box;
+    border: 3px solid var(--color4);
+    border-radius: 10px;
+    width: 150px;
+    background-color: var(--color1);
+    text-align: center;
+}
+
+.add-btn {
+    padding: 1em 0;
+}
+
+.add-btn button {
+    background-color: var(--color5);
+    font-weight: bold;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.add-btn button:hover {
+    background-color: var(--color3);
+}
+
+.portfolio-resumen {
+    flex-grow: 1;
+    height: 100%;
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.resumen-grafico {
+    max-width: 200px;
+}
+
+
+/*----------Queries----------*/
+
+
+@media screen and (max-width: 1400px) and (min-width: 768px) {
+    .portfolio-resumen {
+        flex-direction: row
+    }
+
+}
+
+@media screen and (min-width: 1400px) and (max-width: 768px) {
+    .portfolio-resumen {
+        align-items: center;
+    }
+
+}
+
+@media screen and (width < 768px) {
+    * {
+        font-size: 12px;
+    }
+}
