@@ -50,7 +50,7 @@ header a:hover {
 
 footer {
   /* background-color: rgb(230, 230, 230); */
-  background-color: var(--primary-soft);
+  background-color: var(--bs-dark);
   /* position: fixed; */
     bottom: 0;
     width: 100%;
