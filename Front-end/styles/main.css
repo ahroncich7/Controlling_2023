@@ -1,12 +1,15 @@
 :root {
-    padding: 0;
-    margin: 0;
     --bg-color: #F3EEF4;
     --primary: #984eF3;
     --primary-soft: #eee6f8;
     --secondary: #4fc4cf;
     --terciary: #fbdd74;
     --font-color: #181818;
+}
+
+body{
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 /* :root {
@@ -19,8 +22,7 @@
 
 
 * {
-    color: var(--font-color);
-    white-space: nowrap;
+    color: var(--font-color) !important;
 }
 
 button {
