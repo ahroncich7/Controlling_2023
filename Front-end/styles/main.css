@@ -12,6 +12,10 @@ body{
     margin: 0 !important;
 }
 
+main{
+    padding: 180px 0
+}
+
 /* :root {
     --color1: #f5f5f5;
     --color2: #3d7c98;
@@ -20,9 +24,17 @@ body{
 
 } */
 
+a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+a:hover{
+    color: var(--terciary);
+}
 
 * {
-    color: var(--font-color) !important;
+    color: var(--font-color);
 }
 
 button {
