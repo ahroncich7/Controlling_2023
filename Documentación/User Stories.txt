@@ -1,0 +1,12 @@
+#US_01 Como usuario registrado quiero visualizar mis inversiones de distintos intercambios desde un mismo lugar para tenerlas organizadas.
+#US_02 Como usuario registrado quiero observar rápidamente mi cartera de inversiones (bursátiles,criptos,bolsa) para conocer mi situación financiera.
+#US_03 Como usuario registrado quiero alguna notificación/alerta cuando el valor de mis inversiones varía inesperadamente/drásticamente para no perderme los movimientos.
+#US_04 Como usuario registrado quiero ver en forma gráfica pérdidas y ganancias mensuales/semanales/diarias para poder tomar desiciones con rapidez.
+#US_05 Como usuario registrado quiero un perfil para poder agregar,eliminar,manipular mi cartera de inversiones para mantenerla actualizada.  
+#US_06 Como usuario registrado quiero poder personalizar filtros para especificar los datos que visualizo según mis preferencias.
+#US_07 Como usuario registrado quiero que los datos que ingrese sean conservados para poder acceder a ellos en cualquier momento sin volver a ingresarlos.
+#US_08 Como usuario registrado quiero que los datos, inversiones e información de mi cuenta sean privados, para que estén seguros ya que son confidenciales.
+#US_09 Como usuario registrado quiero visualizar constantemente los valores actualizados de los distintos activos para decidir mis inversiones.
+#US_10 Como usuario visitante quiero ver la cantidad de usuarios registrados, y la cantidad de usuarios activos (último mes) para determinar la confiabilidad del sitio.
+#US_11 Como usuario visitante quiero visualizar las inversiones mas populares entre los usuarios de la app para conocer hacia donde va el mercado.
+#US_12 Como usuario visitante quiero ver las monedas/divisas con mayor volatilidad del mercado para mantenerme informado.
