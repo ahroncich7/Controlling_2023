@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../Fotos/Favicon.png" type="image/x-icon" />
+    <title>Perfil de Usuario</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../Estilos/perfilusuario.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Formulario -->
+      <h2 class="form__h2">Mi Perfil</h2>
+      <form class="form__user" action="">
+        <fieldset>
+          <legend class="form__legend">Datos personales:</legend>
+          <br />
+          <br />
+          <label class="form__label" for="alias"
+            >Alias:
+            <input
+              class="form__input"
+              type="text"
+              name="alias"
+              id="alias"
+              required
+              maxlength="10"
+              size="10"
+            />
+          </label>
+          <br />
+          <br />
+          <label class="form__label" for="pais"
+            >Pais:
+            <input
+              class="form__input"
+              type="text"
+              name="pais"
+              id="pais"
+              required
+            />
+          </label>
+          <br />
+          <br />
+          <input class="form__btn" type="reset" />
+          <input class="form__btn" type="submit" value="Guardar cambios" />
+          <br />
+        </fieldset>
+      </form>
+      <form class="form__user" action="">
+        <fieldset>
+          <legend class="form__legend">Datos de la cuenta:</legend>
+          <br />
+          <label class="form__label" for="email"
+            >Email:
+            <input
+              class="form__input"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+          </label>
+          <br />
+          <br />
+          <label class="form__label" for="password"
+            >Contraseña:
+            <input
+              class="form__input"
+              type="password"
+              name="password"
+              id="password"
+              required
+              maxlength="20"
+              size="20"
+            />
+          </label>
+          <br />
+          <br />
+          <button class="form__btn">
+            <a class="form__btn--a" href="password.html">Cambiar contraseña</a>
+          </button>
+
+          <br />
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

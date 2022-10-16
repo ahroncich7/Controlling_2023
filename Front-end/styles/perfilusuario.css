@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #144bf0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav__link {
+  color: #144bf0;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.menu__li {
+  margin: 2%;
+  display: flex;
+  list-style-type: none;
+}
+
+.menu__li li {
+  margin-right: 2%;
+}
+
+.form__btn {
+  color: white;
+  background-color: #144bf0;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 10%;
+}
+
+.form__btn--a {
+  color: white;
+}
+
+.form__user {
+  margin: 2% 40% 2% 1%;
+}
+
+.form__h2 {
+  font-size: 2rem;
+  margin: 1.5%;
+}
+
+.form__input {
+  padding: 0.5%;
+}
+
+.form__label {
+  margin: 1%;
+}
