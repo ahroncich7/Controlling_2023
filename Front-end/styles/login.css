@@ -1,4 +1,19 @@
 
+body {
+    background-color: var(--primary);
+    background-image: linear-gradient(160deg, var(--primary) 0%, var(--secondary) 100%);
+    
+}
+ 
+
+button{
+    --secondary: var(--terciary);
+}
+
+button:hover{
+    --terciary: var(--primary)
+}
+
 .divider:after,
 .divider:before {
 content: "";
@@ -20,6 +35,7 @@ height: 100%;
 .contenedor-imagen {
     text-align: center;
     margin-left: 0;
+    padding: 50px 0;
 }
 .imagen{
     justify-content: center;

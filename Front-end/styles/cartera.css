@@ -1,13 +1,13 @@
 
-.header {
+/* .header {
     height: 85px;
     background-color: var(--primary);
-}
+} */
 
-.container {
+/* .container {
     margin-top: 100px;
 
-}
+} */
 
 /*----------PORTFOLIO----------*/
 
@@ -31,6 +31,7 @@
     flex-grow: 1;
     height: 100%;
     background-color: var(--main);
+    white-space: nowrap;
 }
 
 .table-head {
