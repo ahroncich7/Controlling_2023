@@ -93,6 +93,7 @@ footer .container {
 
   .titulo{
     display: flex;
+    cursor: pointer;
   }
 
   .img{
