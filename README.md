@@ -5,7 +5,7 @@ Controlling es un proyecto que apunta a facilitar al cliente el registro y segui
 
 Mediante un inicio de sesión disfrutara de los beneficios de registrar, consultar y ordenar sus activos. También tendrá la opción de filtrar y verificar sus pérdidas y ganancias en el historial y el hora a hora, y contara con la posibilidad de ver la fluctuación de sus activos de forma gráfica.
 
-Proyecto EN PROGRESO ==> [Controllig] (https://TomiLencina.github.io/Trabajo-Grupal-ISPC_2/)
+Proyecto EN PROGRESO ==> [Controllig] (https://TomiLencina.github.io/ISPC-Proyecto-integrador-full-stack-)
 
 ¡Los alumnos de la Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales nos proponemos a dar lo mejor de nosotros para que Controlling sea útil, segura y un éxito!
 
