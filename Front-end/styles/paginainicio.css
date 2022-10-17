@@ -7,8 +7,14 @@
     padding-top: 6%;
 }
 
-.inicio {
-  padding-top: 120px;
+.bienvenidos{
+  padding-top: 200px;
+  text-align: center;
+}
+
+.bienvenidos h1 {
+  font-weight: 800;
+  color: var(--primary);
 }
 
 
