@@ -7,9 +7,19 @@
     --font-color: #181818;
 }
 
+/* :root {
+    --bg-color: #3A4145;
+    --primary: #1B4965;
+    --primary-soft: #5FA8D3;
+    --secondary: #D3895F;
+    --terciary: #D3895F;
+    --font-color: #E9F3F9;
+} */
+
 body{
     padding: 0 !important;
     margin: 0 !important;
+    background-color: var(--bg-color);
 }
 
 main{
