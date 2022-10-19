@@ -50,10 +50,11 @@ a:hover{
 button {
     border-color: var(--secondary) !important;
     background-color: var(--secondary) !important;
+    color: var(--font-color) !important;
 }
 
 button:hover {
     border-color: var(--terciary) !important;
     background-color: var(--terciary) !important;
-   
+    
 }
