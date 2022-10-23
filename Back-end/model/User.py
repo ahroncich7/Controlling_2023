@@ -1,20 +1,17 @@
+from model.fakedb import users_list
 class User:
 
-    users_list = []
-
     def __init__(self, mail, password, is_registered, alias=None):
-        self.mail = mail
-        self.password = password
-        self.alias = alias
+
         if is_registered:
             try:
-                self.get_user_from_db()
+                self.get_user_from_db(mail, password)
             except Exception as e:
                 raise Exception("Error when trying to select user from db.", e)
 
         else:
             try:
-                self.insert_user_from_db()
+                self.insert_user_to_db(mail, password, alias)
             except Exception as e:
                 print (e)
 
@@ -23,9 +20,10 @@ class User:
         return f"User named {self.alias}, has e-mail {self.mail} and password: {self.password}"
 
 
-    def get_user_from_db(self):  # Simula buscar usuario en base de Datos
-        for user in User.users_list:
-            if user.mail == self.mail and user.password == self.password:
+    def get_user_from_db(self, mail, password):  # Simula buscar usuario en base de Datos
+        for user in users_list:
+            if user.mail == mail and user.password == password:
+                self.mail = user.mail
                 self.password = user.password
                 self.alias = user.alias
                 self.portfolio_id = user.portfolio_id
@@ -33,5 +31,8 @@ class User:
         raise Exception("Invalid mail/password")
 
 
-    def insert_user_from_db(self):  # Simula insertar usuario en base de Datos
-        User.users_list.append(self)
+    def insert_user_to_db(self, mail, password, alias):  # Simula insertar usuario en base de Datos
+        self.mail = mail
+        self.password = password
+        self.alias = alias
+        users_list.append(self)
