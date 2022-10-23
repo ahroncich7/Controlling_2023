@@ -6,16 +6,24 @@ from model.User import User
     # ----- PRUEBAS-----
     # ------------------
 
+mail = input("ingrese direccion de correo: ")
+password = input("ingrese su contraseña: ")
+
+try:
+    print(User_Controller.login(mail, password))
+except Exception as e:
+    print(e)
+
 if __name__ == "__main__":
 
 
     # Crear usuarios falsos para poblar la lista
     user1 = User_Controller.register("pete_the_great@gmail.com", "sqllover123", "Pete")
-    user1.portfolio_id = 1
     user2 = User_Controller.register("jdoe89@hotmail.com", "27051989", "John Doe")
-    user2.portfolio_id = 2
     user3 = User_Controller.register("casandrawilliams@gmail.com", "cswl897", "Caswill")
-    user3.portfolio_id = 3
+    
+    
+
 
 
  # Caso de uso 1: Usuario erróneo
