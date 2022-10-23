@@ -11,4 +11,12 @@ class User_Controller:
             return User(user_mail, user_pass, True)
         except Exception:
             raise
+    
+    @classmethod
+    def register(self, user_mail, user_pass, user_alias):
+
+        try:
+            return User(user_mail, user_pass, False, user_alias)
+        except Exception:
+            raise
 
