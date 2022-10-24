@@ -1,4 +1,3 @@
-import json
 from model.fakedb import users_list
 class User:
 
@@ -23,7 +22,7 @@ class User:
 
     def get_user_from_db(self, mail, password):  # Simula buscar usuario en base de Datos
         for user in users_list:
-            user = json.loads(user)
+            user = user
             if user["mail"] == mail and user["password"] == password:
                 self.mail = user["mail"]
                 self.password = user["password"]
@@ -36,4 +35,4 @@ class User:
         self.mail = mail
         self.password = password
         self.alias = alias
-        users_list.append(json.dumps(self.__dict__))
+        users_list.append(self.__dict__)
