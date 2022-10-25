@@ -1,8 +1,21 @@
-from sys import path
 from controller.User_controlller import User_Controller
 
 
 user_controller = User_Controller()
 
-new_user = (None, "ale@gmail.com", "1234", "ale") 
-print(user_controller.register_user(None, "ale@gmail.com", "1234", "ale"))
+
+
+#----------------
+#------pruebas---
+#----------------
+
+print("#"*50)
+print("#"*50)
+
+print("Test register user: ")
+print(user_controller.register_user("ale@gmail.com", "123Sdas@4", "ale"))
+
+print("#"*50)
+print("#"*50)
+print("Test login user: ")
+print(user_controller.log_in_user("ale@gmail.com", "123Sdas@4"))

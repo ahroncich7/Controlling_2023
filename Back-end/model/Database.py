@@ -1,12 +1,19 @@
 class Database:
-    users = []
+    user = []
     def __init__(self):
         pass
 
-    def insert_user(self, new_user):
+    def insert(self, entity, table_name):
         try:
-            Database.users.append(new_user)
+            Database.__dict__[table_name].append(entity)
             return True
         except Exception as e:
             print(e)
-            
+    
+    def select(self, table_name, criteria, criteria_value):
+        try:
+            records = Database.__dict__[table_name]
+            entity = next(x for x in records if x.__dict__[criteria] == criteria_value)
+            return entity.__dict__
+        except Exception as e:
+            print(e)
