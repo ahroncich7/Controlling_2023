@@ -10,11 +10,12 @@ class User_Controller:
         pass 
 
     def register_user(self, mail, password, alias):
-        new_user = User(mail, password, alias)
-
-        if not Validator.user_is_valid(new_user.mail, new_user.password):
+        
+        if not Validator.user_is_valid(mail, password):
             return {"status":"fail","message": "User/Password not valid"}
         
+        new_user = User(mail, password, alias)
+
         if not (db.insert(new_user, "user")):
             return {"status":"fail","message": "Fail to create user"}
                   
