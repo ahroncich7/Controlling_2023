@@ -100,49 +100,27 @@
         </form>
         <form class="form__user" action="">
           <fieldset>
-            <legend class="form__legend">Datos de la cuenta:</legend>
-            <br />
-            <label class="form__label" for="email"
-              >Correo Electronico:
-              <input
-                class="form__input"
-                type="email"
-                name="email"
-                id="email"
-                required
-              />
-            </label>
-            <br />
-            <br />
-            <label class="form__label" for="password"
-              >Contraseña:
-              <input
-                class="form__input"
-                type="password"
-                name="password"
-                id="password"
-                required
-                maxlength="20"
-                size="20"
-              />
-            </label>
-            <br />
-            <br />
-            <button
-              type="submit"
-              class="btn btn-primary btn-sm"
-              style="
-                padding-left: 1.5rem;
-                padding-right: 1.5rem;
-                margin: 0.5rem;
-              "
-            >
-              <a href="password.html">Cambiar contraseña</a>
-            </button>
+            <div id="chng__pass"></div>
+            <div id="btn__chng--pass">
+              <button
+                id="btn__chng"
+                type="button"
+                class="btn btn-primary btn-md"
+                style="
+                  padding-left: 1.5rem;
+                  padding-right: 1.5rem;
+                  margin: 0.5rem;
+                "
+                onclick="chng__pass()"
+              >
+                Cambiar contraseña
+              </button>
+            </div>
             <br />
           </fieldset>
         </form>
       </div>
     </main>
+    <script src="./js/perfilusuario.js"></script>
   </body>
 </html>
