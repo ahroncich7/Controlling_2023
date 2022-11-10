@@ -18,7 +18,7 @@ class User_Controller:
 
         if not (db.insert(new_user, "user")):
             return {"status":"fail","message": "Fail to create user"}
-                  
+
         return {"status":"ok", "message": "User created", "data": new_user.__dict__}
 
     def log_in_user(self, mail, password):
