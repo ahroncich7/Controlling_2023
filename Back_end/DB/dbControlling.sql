@@ -4,11 +4,11 @@ CREATE DATABASE controlling CHARSET UTF8;
 USE controlling;
 
 CREATE TABLE Usuario (
-    idUsuario INT(11) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    alias VARCHAR(20) NOT NULL,
-    contrasenia VARCHAR(30) NOT NULL,
     mail VARCHAR(50) NOT NULL,
-    pais VARCHAR(20)
+    contrasenia VARCHAR(30) NOT NULL,
+    alias VARCHAR(20) NOT NULL,
+    pais VARCHAR(20),
+    idUsuario INT(11) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
 );
 
 CREATE TABLE Activo (
