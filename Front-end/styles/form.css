@@ -5,7 +5,11 @@ body {
     
 }
 
-main {
+main{
+    padding-top: 120px;
+}
+
+.formulario-login {
     min-height: 100vh;
 }
  
@@ -46,8 +50,15 @@ height: 100%;
 .contenedor-imagen {
     text-align: center;
     margin-left: 0;
-    padding: 50px 0;
+    padding-bottom: 50px;
 }
+
 .imagen{
     justify-content: center;
+    width: 150px;
+}
+
+.container.formulario{
+    display: flex;
+    flex-direction: column;
 }
