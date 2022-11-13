@@ -1,0 +1,14 @@
+#Propuestas
+Estas propuestas fueron el resultado de las ideas de los diferentes integrantes del grupo para decidirnos sobre que se basaria el proyecto, nos deidimos por el proyecto de la app Controlling.
+
+1) Mundial/Deportes: una pagina web del mundial donde se pueda incluir noticias, predicciones, resultados en directo, estadisticas del partido, resumenes o incluso la historia. Tambien se podria poner la informacion de los paises,etc.
+
+2) App de consultorio medico: pagina para una clinica donde se pueda registrar usuarios con distintos permisos (unos serian pacientes y otros empleados y medicos), serviria para sacar turnos, enviar mails con recordatorios sobre las citas ya organizadas y tener una base de datos con los pacientes registrados y sus respectivas consultas.
+
+3) Agenda: una agenda en linea donde el usuario pueda elegir el tipo de agenda que necesita (formatos ya predefinidos: escolar, horarios de trabajo, feriados,etc). A esto sumarle funcionalidades como control de gastos, consejos de inversion y ahorro. Recordatorios como por ejemplo los cumpleaños o fechas importantes, y ademas un sistema de recordatorio de actividades marcadas en la agenda con tiempo de anticipacion puesto por el usuario.
+
+4) Violencia de genero: una pagina web mas relacionada con lo social, relacionada con la violencia de genero, que presente informacion sobre lugares de contactos cerca de donde el usuario se encuentra o elige buscar una ubicacion especifica (ONG, Gubernamentales, etc.). Incluir informacion sobre planes de accion y como se debe proceder en un caso de violencia de genero. 
+
+5) Seguimiento de inversiones: una app web para el registro y seguimiento de las inversiones bursatiles y de criptomonedas. Permitiria registro e inicio de sesion de usuarios; a traves del inicio de sesion el usuario podria registrar, consultar, filtrar y ordenar la compra y venta de activos y criptomonedas que haya realizado en cualquier exchange. La app consume una API de valoracion de activos que actualiza en tiempo real la cotizacion de los activos valorados en cartera.
+
+6) Eventos culturales: una pagina web sobre eventos culturales de un lugar en especifico (ciudad, pueblo, comunidad, etc.). En ella informar sobre todos los eventos de caracter cultural ya sea: conciertos, festivales, eventos deportivos masivos, cine, teatro, etc. y que esta informacion se mantenga actualizada mensualmente o semanalmente.

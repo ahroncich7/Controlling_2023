@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+
+.row{
+    padding: 3%;
+    padding-top: 6%;
+}
+
+.bienvenidos{
+  padding-top: 200px;
+  text-align: center;
+}
+
+.bienvenidos h1 {
+  font-weight: 800;
+  color: var(--primary);
+}
+
+
+
+
+

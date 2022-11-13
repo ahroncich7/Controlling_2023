@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartera</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/header.css" />
+  <link rel="stylesheet" href="styles/cartera.css">
+</head>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a href="home.html">
+        <div class="titulo">
+          <div>
+            <img class="img" src="images/controlling.jpg">
+          </div>
+          <p class="logo">Controlling</p>
+        </div>
+      </a>
+
+      <nav>
+        <a href="./quienes_somos.html">Sobre Nosotros</a>
+        <a href="./cartera.html">Cartera</a>
+        <a href="terminosycondiciones.html">Términos y Condiciones</a>
+        <a href="./login.html">Iniciar Sesion</a>
+        <a href="registro.html">Registrarse</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container container-portfolio">
+      <div class="portfolio">
+        <div class="table-responsive">
+
+          <table class="table table-striped text-center portfolio-table">
+            <thead class="table-head">
+              <tr>
+                <th scope="col">Activo</th>
+                <th scope="col">Brk</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Valoración</th>
+                <th scope="col">%G-P</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <th scope="row">NETFLIX</th>
+                <td>E-TORO</td>
+                <td>22/08</td>
+                <td>12</td>
+                <td>$2100</td>
+                <td>$21924</td>
+                <td>-%13</td>
+              </tr>
+              <tr>
+                <th scope="row">YPF:BYMA</th>
+                <td>IOL</td>
+                <td>13/04</td>
+                <td>3</td>
+                <td>$800</td>
+                <td>$3168</td>
+                <td>+%32</td>
+              </tr>
+              <tr>
+                <th scope="row">ETH</th>
+                <td>BINANCE</td>
+                <td>05/06</td>
+                <td>5</td>
+                <td>$2320</td>
+                <td>$14152</td>
+                <td>+%22</td>
+              </tr>
+              <tr>
+                <th scope="row">NETFLIX</th>
+                <td>E-TORO</td>
+                <td>22/08</td>
+                <td>12</td>
+                <td>$2100</td>
+                <td>$21924</td>
+                <td>-%13</td>
+              </tr>
+              <tr>
+                <th scope="row">YPF:BYMA</th>
+                <td>IOL</td>
+                <td>13/04</td>
+                <td>3</td>
+                <td>$800</td>
+                <td>$3168</td>
+                <td>+%32</td>
+              </tr>
+              <tr>
+                <th scope="row">ETH</th>
+                <td>BINANCE</td>
+                <td>05/06</td>
+                <td>5</td>
+                <td>$2320</td>
+                <td>$14152</td>
+                <td>+%22</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+        <div class="portfolio-add">
+
+
+          <div class="assets-container">
+            <label for="assets">Activo</label>
+            <input list="assets">
+            <datalist id="assets">
+              <option value="ETH">
+              <option value="NETFLIX">
+              <option value="YPF:BYMA">
+              <option value="BTC">
+              <option value="TGNO">
+            </datalist>
+          </div>
+          <div class="excbrk-container">
+            <label for="excbrk">Exc/Brk</label>
+            <input list="EXC/BRK">
+            <datalist id="EXC/BRK">
+              <option value="BINANCE">
+              <option value="IOL">
+              <option value="E-TORO">
+              <option value="BITMAX">
+              <option value="Bull Market">
+            </datalist>
+          </div>
+          <div class="date-container">
+            <label for="date">Fecha de Compra:</label>
+            <input type="date" id="date" name="date" value="today">
+          </div>
+          <div class="quantity-container">
+            <label for="quantity">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity">
+          </div>
+          <div class="price-container">
+            <label for="price">Precio:</label>
+            <input type="number" id="price" name="price">
+          </div>
+
+
+        </div>
+
+        <div class="add-btn text-center">
+          <button type="button" class="btn">+</button>
+        </div>
+
+
+      </div>
+
+      <div class="portfolio-resumen">
+
+        <div class="table-responsive">
+
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th colspan="2" scope="col">Resumen</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+
+              <tr>
+                <th scope="row">portfolio Valorizada</th>
+                <td>$128246</td>
+              </tr>
+              <tr>
+                <th scope="row">Ganancia Neta</th>
+                <td>$3500</td>
+              </tr>
+              <tr>
+                <th scope="row">% Ganancia/Pérdida</th>
+                <td>+%25</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+        <div class="resumen-grafico">
+          <img src="images/chart.png" class="img-thumbnail" alt="">
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; Controlling 2022</p>
+    </div>
+  </footer>
+</body>
+
+</html>
