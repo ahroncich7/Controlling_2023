@@ -1,7 +1,10 @@
+from sys import path
+path.append("..\\")
 from model.user_connection import Dao
 from controller.Validation import Validator
 
-db = Dao()
+
+db = Dao("localhost", "3306", "root", "", "controlling")
 
 class User_Controller:
     
@@ -46,7 +49,7 @@ class User_Controller:
 
     
     
-    def update_user_data(mail, password, values):
+    def update_user_data(self, mail, password, values):
         
         if not (Validator.user_is_valid(mail, password)):
             return {"status":"fail","message": "User/Password not valid"}
@@ -74,10 +77,10 @@ class User_Controller:
 
 
     
-    def delete_user(mail, password):
+    def delete_user(self, mail, password):
 
-        if not (Validator.user_is_valid(mail, password)):
-            return {"status":"fail","message": "User/Password not valid"}
+        # if not (Validator.user_is_valid(mail, password)):
+        #     return {"status":"fail","message": "User/Password not valid"}
 
         try:
             user_data = db.select_user(mail)
@@ -103,10 +106,10 @@ class User_Controller:
 
     def count_users_by_country(self):
         
-        return {db.count_users_by_country()}
+        return f"{db.count_users_by_country()}"
 
 
 
 user = User_Controller()
 
-user.delete_user("nawsper@gmail.com", "458d")
+print(user.count_users_by_country())

@@ -4,14 +4,14 @@ from mysql.connector import Error
 
 class Dao():
 
-    def __init__(self):
+    def __init__(self, host, port, user, password, db):
         try:
             self.connection = mysql.connector.connect(
-                host= "localhost",
-                port= 3306,
-                user="root",
-                password="",
-                db="controlling"
+                host = host,
+                port = port,
+                user = user,
+                password = password,
+                db = db
             )
 
         except Error as ex:
@@ -47,6 +47,8 @@ class Dao():
                 print("El error es: ", ex)
             finally:
                 self.connection.close()
+
+
 
     def delete_user(self, mail):
         self.connection.connect()

@@ -1,3 +1,4 @@
+# Handled by User_controller.py
 class Login_form():
 
     def __init__(self):
