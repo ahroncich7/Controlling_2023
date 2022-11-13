@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" media="screen" href="styles/login.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
 </head>
 <body>
@@ -20,7 +21,7 @@
     <div class="row d-flex justify-content-center align-items-center h-100">
       
       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-        <form>
+        <form id="form-login">
          
 
           <!-- Email input -->
@@ -49,8 +50,7 @@
           </div>
 
           <div class="text-center text-lg-start mt-4 pt-2">
-            <button type="button" class="btn btn-primary btn-lg" 
-              style="padding-left: 2.5rem; padding-right: 2.5rem;">Iniciar sesión</button>
+            <input class="input-form" type="submit" />
             <p class="small fw-bold mt-2 pt-1 mb-0">¿No tienes una cuenta? <a href="#!"
                 class="link-danger">Registraté!</a></p>
           </div>
@@ -61,5 +61,6 @@
   </div>
   
 </section>
+        <script src="../public/scripts/login.js"></script>
 </body>
 </html>

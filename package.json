@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TomiLencina/ISPC-Proyecto-integrador-full-stack-/issues"
   },
-  "homepage": "https://github.com/TomiLencina/ISPC-Proyecto-integrador-full-stack-#readme"
+  "homepage": "https://github.com/TomiLencina/ISPC-Proyecto-integrador-full-stack-#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
 }
