@@ -14,10 +14,6 @@ body{
     background-color: var(--bg-color);
 }
 
-main{
-    /* padding:120px 0 */
-}
-
 
 a{
     text-decoration: none;
