@@ -4,8 +4,10 @@ login.addEventListener("submit", (e) => {
   console.log("Ingreso exitoso");
   e.preventDefault();
 
+
   Swal.fire({
     icon: "success",
     title: "BIENVENIDO!",
   });
 });
+
