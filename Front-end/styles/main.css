@@ -3,18 +3,10 @@
     --primary: #984eF3;
     --primary-soft: #eee6f8;
     --secondary: #4fc4cf;
-    --terciary: #fbdd74;
+    --tertiary: #fbdd74;
     --font-color: #181818;
 }
 
-/* :root {
-    --bg-color: #3A4145;
-    --primary: #1B4965;
-    --primary-soft: #5FA8D3;
-    --secondary: #D3895F;
-    --terciary: #D3895F;
-    --font-color: #E9F3F9;
-} */
 
 body{
     padding: 0 !important;
@@ -23,16 +15,9 @@ body{
 }
 
 main{
-    padding: 180px 0
+    /* padding:120px 0 */
 }
 
-/* :root {
-    --color1: #f5f5f5;
-    --color2: #3d7c98;
-    --color3: #a8dff1;
-    --color5: #73b0cd;
-
-} */
 
 a{
     text-decoration: none;
@@ -40,7 +25,7 @@ a{
 }
 
 a:hover{
-    color: var(--terciary);
+    color: var(--tertiary);
 }
 
 * {
@@ -54,7 +39,7 @@ button {
 }
 
 button:hover {
-    border-color: var(--terciary) !important;
-    background-color: var(--terciary) !important;
+    border-color: var(--tertiary) !important;
+    background-color: var(--tertiary) !important;
     
 }

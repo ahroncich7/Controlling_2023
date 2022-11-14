@@ -17,9 +17,11 @@ h2 {
   color: var(--font-color);
 }
 
-.form__user {
-  margin: 2% 40% 2% 1%;
+.user__profile{
+  text-align: center;
+  min-height: 100vh;
 }
+
 
 .form__h2 {
   font-size: 2rem;
@@ -35,10 +37,10 @@ h2 {
 }
 
 #btn__chng {
-  --secondary: var(--terciary);
+  --secondary: var(--tertiary);
 }
 
 #btn__chng:hover {
-  --terciary: var(--primary);
+  --tertiary: var(--primary);
   color: var(--bg-color) !important;
 }
