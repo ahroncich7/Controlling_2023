@@ -74,6 +74,11 @@ h1 {
 }
 
 
+.hidden {
+    display: none;
+}
+
+
 .portfolio-resumen {
     flex-grow: 1;
     height: 100%;
