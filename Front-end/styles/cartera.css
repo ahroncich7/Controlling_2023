@@ -129,8 +129,8 @@ h1 {
 @media screen and (width < 720px) {
     .perfil {
         top: 250px;
-        position: inherit;
+        position: initial;
         text-align: center;
-
+        margin-bottom: 2em;
     }
 }
