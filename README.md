@@ -7,6 +7,10 @@ Mediante un inicio de sesión disfrutara de los beneficios de registrar, consult
 
 Proyecto EN PROGRESO ==> [Controllig] (https://TomiLencina.github.io/ISPC-Proyecto-integrador-full-stack-)
 
+Pagina Institucional del Grupo ( https://dev-lencina.website/ ) ---> en esta se encuentran nuestros cv y las tecnologias que conocemos, entre otros detalles
+
+Video de los integrantes explicando que parte desarrollo cada uno: https://youtu.be/qHQ5TplIDcA
+
 ¡Los alumnos de la Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales nos proponemos a dar lo mejor de nosotros para que Controlling sea útil, segura y un éxito!
 
 
