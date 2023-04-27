@@ -1,0 +1,9 @@
+.custom-footer{
+    text-align: center;
+    width: 100vw;
+    height: 200px;
+    background-color: var(--font-color);
+    position: absolute;
+    bottom: 0;
+
+}
