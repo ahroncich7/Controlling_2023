@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PaginaPruebaComponent } from './pagina-prueba/pagina-prueba.component';
 import { CarteraComponent } from './cartera/cartera.component';
+import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.component';
 
 
 
@@ -9,7 +10,8 @@ import { CarteraComponent } from './cartera/cartera.component';
   declarations: [
 
     PaginaPruebaComponent,
-    CarteraComponent
+    CarteraComponent,
+    PerfilUsuarioComponent
   ],
   imports: [
     CommonModule
