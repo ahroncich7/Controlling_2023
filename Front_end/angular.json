@@ -85,7 +85,8 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "assets/images"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
