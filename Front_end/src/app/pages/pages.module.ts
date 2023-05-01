@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PaginaPruebaComponent } from './pagina-prueba/pagina-prueba.component';
 import { CarteraComponent } from './cartera/cartera.component';
 import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.component';
+import { RegistroComponent } from './registro/registro.component';
 
 
 
@@ -11,7 +12,8 @@ import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.componen
 
     PaginaPruebaComponent,
     CarteraComponent,
-    PerfilUsuarioComponent
+    PerfilUsuarioComponent,
+    RegistroComponent
   ],
   imports: [
     CommonModule
