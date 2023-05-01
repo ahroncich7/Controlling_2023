@@ -18,7 +18,8 @@ import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.componen
   ],
   exports: [
     PaginaPruebaComponent,
-    CarteraComponent
+    CarteraComponent,
+    PerfilUsuarioComponent
   ]
 })
 export class PagesModule { }
