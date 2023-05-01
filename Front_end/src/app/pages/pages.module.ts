@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, registerLocaleData } from '@angular/common';
 import { PaginaPruebaComponent } from './pagina-prueba/pagina-prueba.component';
 import { CarteraComponent } from './cartera/cartera.component';
 import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.component';
+import { RegistroComponent } from './registro/registro.component';
 
 
 
@@ -11,7 +12,8 @@ import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.componen
 
     PaginaPruebaComponent,
     CarteraComponent,
-    PerfilUsuarioComponent
+    PerfilUsuarioComponent,
+    RegistroComponent
   ],
   imports: [
     CommonModule
@@ -19,7 +21,8 @@ import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.componen
   exports: [
     PaginaPruebaComponent,
     CarteraComponent,
-    PerfilUsuarioComponent
+    PerfilUsuarioComponent,
+    RegistroComponent
   ]
 })
 export class PagesModule { }
